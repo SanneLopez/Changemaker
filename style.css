@@ -1,0 +1,85 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+img{
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  height:auto;
+}
+section{
+  display: flex;
+  justify-content: center;
+
+}
+h1{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding-top: 2em;
+  margin-right: 0,9em;
+  color:#242436;
+}
+a{
+  color: rgb(96, 125, 189);
+  font-size: 20px;
+  text-decoration: none;
+  width: 50%;
+}
+p{
+  color:rgb(43, 42, 65) ;
+  font-size: 15px;
+  font-weight:bold;
+  align-self:center;
+  width:50%;
+  height:50%;
+}
+.search {
+  width: 25%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.input{
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.input:focus{
+  color: #00B4CC;
+}
+
+.searchBtn {
+  width: 75px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+.result {
+  display: grid;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  color: rgb(57, 55, 58);
+  margin: 60px 10px 10px 500px;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+
